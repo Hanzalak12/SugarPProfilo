@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "791064301731",
+    "firebase_url": "https://sugarsugar-97776.firebaseio.com",
+    "project_id": "sugarsugar-97776",
+    "storage_bucket": "sugarsugar-97776.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791064301731:android:4b03d7189d829e53b32f16",
+        "android_client_info": {
+          "package_name": "com.sugarsugar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791064301731-qrvaii5q5u0m6kdse9kmee7a1h9djt04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4DCpEZtDB_QsTnf9akcbnem8PVpy2vlE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791064301731-qrvaii5q5u0m6kdse9kmee7a1h9djt04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
