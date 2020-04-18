@@ -1,4 +1,4 @@
-package com.sugarsugar;
+package com.sugarsugars;
 
 import com.facebook.react.ReactActivity;
 

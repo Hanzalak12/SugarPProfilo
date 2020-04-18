@@ -54,12 +54,12 @@ target 'sugarsugar' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  pod 'RNFirebase', :path => '../node_modules/react-native-firebase'
+  pod 'RNFirebase', :path => '../node_modules/react-native-firebase/ios'
+  pod 'Firebase/Core'
+  pod 'Firebase/Messaging'
+  pod 'GoogleAppMeasurement'
+  #5.20.1
 
-  target 'sugarsugarTests' do
-    inherit! :complete
-    # Pods for testing
-  end
 
   use_native_modules!
 
@@ -70,14 +70,5 @@ target 'sugarsugar' do
   add_flipper_pods!
   post_install do |installer|
     flipper_post_install(installer)
-  end
-end
-
-target 'sugarsugar-tvOS' do
-  # Pods for sugarsugar-tvOS
-
-  target 'sugarsugar-tvOSTests' do
-    inherit! :search_paths
-    # Pods for testing
   end
 end

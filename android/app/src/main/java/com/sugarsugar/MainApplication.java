@@ -1,4 +1,4 @@
-package com.sugarsugar;
+package com.sugarsugars;
 
 import android.app.Application;
 import android.content.Context;
