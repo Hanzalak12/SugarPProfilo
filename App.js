@@ -141,7 +141,7 @@ export class App extends Component {
     * */
     this.messageListener = firebase.messaging().onMessage((message) => {
       //process data message
-      this.showAlert("onMessage",JSON.stringify(message))
+      // this.showAlert("onMessage",JSON.stringify(message))
       console.log(JSON.stringify(message));
     });
   }
@@ -180,7 +180,6 @@ export class App extends Component {
           this.setState({People:response.data.People});
           this.setState({Contact:response.data.Contact});
           this.setState({Location:response.data.Location});
-          this.setState({Allow:response.data.Allow});
           }
           else
           {
